@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <button id="red">R</button>
+    <button id="blue">B</button>
+    <button id="green">G</button>
+    <script>
+    
+        let body = document.querySelector('body');
+            document.querySelector('#red').addEventListener('click', function(){
+                body.style.backgroundColor = 'red';
+            });
+            document.querySelector("#blue").addEventListener('click',function(){
+                body.style.backgroundColor='blue';
+            });
+            document.querySelector('#green').addEventListener('click', function(){
+                body.style.backgroundColor="green";
+            });
+
+            
+    </script>
+    
+</body>
+</html>
